@@ -2,11 +2,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
 }
 
 .logo-img {
     width: 120px;
     height: 80px;
+}
+
+.center-img {
+    width: 100%;
 }
 
 .menus a{
@@ -56,6 +66,11 @@ header {
     font-size: medium;
 }
 
+.items span{
+    display: flex;
+
+}
+
 .wc {
     background-color: #FAFAFA;
     text-align: center;
@@ -84,6 +99,14 @@ header {
     margin-top: 80px;
     gap: 80px;
     padding-bottom: 80px;
+    align-items: center;
+}
+
+.items img{
+    width: 100px;
+    height: 145px;
+    display: flex;
+    align-items: center;
 }
 
 .c1 {
@@ -131,8 +154,8 @@ header {
 }
 
 .humble img {
-    width: 400px;
-    border: 999px black;
+    width: 450px;
+    height: 250px;
 }
 
 .humble h1 {

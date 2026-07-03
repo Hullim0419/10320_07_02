@@ -116,16 +116,22 @@ header {
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
-    gap: 80px;
+    gap: max(10%,60px);
     padding-bottom: 80px;
     align-items: center;
 }
 
+.items .imgbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .items img{
     width: 100px;
-    height: 145px;
-    display: flex;
-    align-items: center;
+    height: auto;
+
 }
 
 .c1 {

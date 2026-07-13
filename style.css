@@ -212,7 +212,7 @@ header {
     font-size: smaller;
 }
 
-.tv-off {
+.ddss {
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -227,6 +227,7 @@ header {
 .aaa span{
     margin-left: 75%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer {
